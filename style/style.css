@@ -4,10 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.5s;
+
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 :root {
   --Very-dark-desaturated-blue: hsl(222, 26%, 31%);
@@ -44,6 +45,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 /*************************************
 * Buttons
@@ -55,7 +57,6 @@ button {
   outline: none;
   border: none;
   border-radius: 10px;
- =
   font-family: var(--ff);
   color: var(--Very-dark-grayish-blue);
   overflow: hidden;
@@ -63,6 +64,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 1s;
 }
 
 button.white {
@@ -118,6 +120,7 @@ button:active {
   margin: 20px;
   font-size: 40px;
   word-break: break-all;
+  transition: none;
 }
 
 /*************************************
@@ -130,6 +133,7 @@ button:active {
   align-items: center;
   max-width: 560px;
   width: 95%;
+  transition: none;
 }
 
 .theme-selector {
@@ -140,6 +144,7 @@ button:active {
 .theme-selector .theme {
   font-size: 16px;
   text-transform: uppercase;
+
 }
 .theme-selector .selector {
   background-color: var(--Very-dark-desaturated-blue2);
