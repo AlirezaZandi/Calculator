@@ -174,8 +174,7 @@ button:active {
   border-radius: 100%;
   position: absolute;
   left: 8px; /*8px on 1, 32px on 2, 58px on 3*/
-  transition: 0.2s;
-  =
+  transition: 0.5s
 }
 /********************
 * btn select
