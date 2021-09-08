@@ -27,6 +27,7 @@ for (let index = 0; index < 4; index++) {
 delButton.addEventListener("click", delFunction);
 resetButton.addEventListener("click", resetFunction);
 equalButton.addEventListener("click", calcResult);
+dotButton.addEventListener("click", addDot);
 
 function addNumber(index) {
   if (afterEqualFlag) {
@@ -136,4 +137,9 @@ function findFirstOperand() {
     }
   }
   return min;
+}
+
+function addDot() {
+  resultValue += ".";
+  result.innerHTML = resultValue;
 }
