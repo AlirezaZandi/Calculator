@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">calc</div>
+      <div class="theme-selector">
+        <div class="theme">theme</div>
+        <div class="selector">
+          <div class="btn-select">
+            <div class="first-theme"></div>
+            <div class="second-theme"></div>
+            <div class="third-theme"></div>
+          </div>
+          <div class="red-circle"></div>
+        </div>
+      </div>
+    </div>
+    <div class="result" id="result"></div>
+    <div class="control-buttons">
+      <button class="white" data-number>7</button>
+      <button class="white" data-number>8</button>
+      <button class="white" data-number>9</button>
+      <button class="blue" data-del>DEL</button>
+      <button class="white" data-number>4</button>
+      <button class="white" data-number>5</button>
+      <button class="white" data-number>6</button>
+      <button class="white" data-operand>+</button>
+      <button class="white" data-number>1</button>
+      <button class="white" data-number>2</button>
+      <button class="white" data-number>3</button>
+      <button class="white" data-operand>-</button>
+      <button class="white" data-dot>.</button>
+      <button class="white" data-number>0</button>
+      <button class="white" data-operand>&divide;</button>
+      <button class="white" data-operand>&times;</button>
+      <button class="span-two blue" data-reset>RESET</button>
+      <button class="span-two-right red" data-equal>=</button>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/theme_changer.js"></script>
+  </body>
+</html>
